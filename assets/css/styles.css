@@ -1,0 +1,57 @@
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+#contents h1 {
+	color: #316e66;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents div.body h1, #contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	margin: 0 0 18px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	font-size: 22px;
+	margin: 0 0 30px;
+}
+#contents h2 a {
+	color: #2c9688;
+	text-decoration: none;
+}
+#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 24px 2px;
+}
+#contents p a {
+	color: #5a4535;
+}
+#contents p a:hover, #news div.sidebar ul li a:hover {
+	color: #917157;
+}
+/** box-shadow **/
+#contents div.box {
+	background-position: left bottom;
+	margin-bottom: 20px;
+	margin-left: 1px;
+	padding: 0 0 6px;
+}
+#contents div.box > div {
+	background-position: -1745px top;
+	padding: 6px 0 0;
+}
+#contents div.body {
+	background-position: -871px top;
+	background-repeat: repeat-y;
+	min-height: 980px;
+	padding: 30px 40px 0;
+}
